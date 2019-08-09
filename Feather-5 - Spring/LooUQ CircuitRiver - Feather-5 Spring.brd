@@ -143,12 +143,13 @@
 <rectangle x1="49.054" y1="29.845" x2="52.388" y2="25.4" layer="29" rot="R0"/>
 <rectangle x1="63.183" y1="32.385" x2="66.516" y2="27.94" layer="29" rot="R0"/>
 <rectangle x1="41.751" y1="43.18" x2="45.72" y2="40.005" layer="29" rot="R0"/>
-<text x="76.966" y="59.312" size="0.74" layer="21" font="proportional" ratio="10" rot="R0" align="top-left" distance="50">3v3</text>
-<text x="76.966" y="61.217" size="0.74" layer="21" font="proportional" ratio="10" rot="R0" align="top-left" distance="50">GND</text>
+<text x="74.208" y="61.344" size="0.74" layer="21" font="proportional" ratio="10" rot="R0" align="top-left" distance="50">3v3</text>
+<text x="74.305" y="59.378" size="0.74" layer="21" font="proportional" ratio="10" rot="R0" align="top-left" distance="50">A.Ref</text>
 <text x="56.964" y="62.487" size="0.74" layer="21" font="proportional" ratio="10" rot="R0" align="top-left" distance="50">Antenna Power</text>
 <text x="58.027" y="63.598" size="0.74" layer="21" font="proportional" ratio="10" rot="R0" align="top-left" distance="50">GPS Active</text>
 <text x="15.203" y="70.142" size="1.48" layer="21" font="proportional" ratio="10" rot="R0" align="top-left" distance="50">Important Connect Power to J5</text>
 <text x="15.203" y="67.66" size="1.48" layer="21" font="proportional" ratio="10" rot="R0" align="top-left" distance="50">or USB to Feather, not both.</text>
+<text x="71.443" y="69.035" size="0.74" layer="21" font="proportional" ratio="10" rot="R0" align="top-left" distance="50">MCU</text>
 </plain>
 <libraries>
 <library name="common">
@@ -345,7 +346,7 @@ Description: CONN HEADER SMD 10POS 1MM</description>
 </package>
 <package name="LooUQ-6mm">
 <wire layer="21" width="0.32" x1="-5.863" y1="1.125" x2="-5.863" y2="-1.675"/>
-<wire layer="21" width="0.25" x1="-1.987" y1="2.101" x2="-3.637" y2="1.6" curve="112.716068"/>
+<wire layer="21" width="0.25" x1="-1.987" y1="2.1" x2="-3.637" y2="1.6" curve="112.714052"/>
 <wire layer="21" width="0.32" x1="-5.838" y1="-1.725" x2="-4.562" y2="-1.725"/>
 <wire layer="21" width="0.333" x1="-2.488" y1="-0.813" x2="-2.531" y2="-0.508"/>
 <wire layer="21" width="0.333" x1="-2.531" y1="-0.508" x2="-2.655" y2="-0.232"/>
@@ -367,9 +368,9 @@ Description: CONN HEADER SMD 10POS 1MM</description>
 <wire layer="21" width="0.333" x1="-2.849" y1="-1.612" x2="-2.655" y2="-1.393"/>
 <wire layer="21" width="0.333" x1="-2.655" y1="-1.393" x2="-2.531" y2="-1.118"/>
 <wire layer="21" width="0.333" x1="-2.531" y1="-1.118" x2="-2.488" y2="-0.813"/>
-<wire layer="21" width="0.32" x1="-3.688" y1="1.575" x2="-3.688" y2="0.6" curve="203.659625"/>
-<wire layer="21" width="0.32" x1="-0.762" y1="1.825" x2="-1.987" y2="2.125" curve="65.400002"/>
-<wire layer="21" width="0.32" x1="-0.713" y1="0.6" x2="-0.738" y2="1.8" curve="182.325973"/>
+<wire layer="21" width="0.32" x1="-3.688" y1="1.575" x2="-3.688" y2="0.6" curve="203.662902"/>
+<wire layer="21" width="0.32" x1="-0.762" y1="1.825" x2="-1.987" y2="2.125" curve="65.398411"/>
+<wire layer="21" width="0.32" x1="-0.713" y1="0.6" x2="-0.738" y2="1.8" curve="182.32932"/>
 <wire layer="21" width="0.32" x1="-3.663" y1="0.6" x2="-0.713" y2="0.6"/>
 <wire layer="21" width="0.4" x1="5.637" y1="-0.388" x2="5.575" y2="0.034"/>
 <wire layer="21" width="0.4" x1="5.575" y1="0.034" x2="5.394" y2="0.414"/>
@@ -391,8 +392,8 @@ Description: CONN HEADER SMD 10POS 1MM</description>
 <wire layer="21" width="0.4" x1="5.112" y1="-1.49" x2="5.394" y2="-1.189"/>
 <wire layer="21" width="0.4" x1="5.394" y1="-1.189" x2="5.575" y2="-0.809"/>
 <wire layer="21" width="0.4" x1="5.575" y1="-0.809" x2="5.637" y2="-0.388"/>
-<wire layer="21" width="0.3" x1="4.663" y1="-1.85" x2="5.863" y2="-2.076" curve="89.874521"/>
-<wire layer="21" width="0.4" x1="0.563" y1="-0.9" x2="2.387" y2="-0.925" curve="180.151653"/>
+<wire layer="21" width="0.3" x1="4.663" y1="-1.85" x2="5.863" y2="-2.075" curve="89.872203"/>
+<wire layer="21" width="0.4" x1="0.563" y1="-0.9" x2="2.387" y2="-0.925" curve="180.148309"/>
 <wire layer="21" width="0.333" x1="-0.163" y1="-0.813" x2="-0.206" y2="-0.508"/>
 <wire layer="21" width="0.333" x1="-0.206" y1="-0.508" x2="-0.332" y2="-0.232"/>
 <wire layer="21" width="0.333" x1="-0.332" y1="-0.232" x2="-0.529" y2="-0.014"/>
@@ -568,15 +569,21 @@ Description: CONN HEADER SMD 10POS 1MM</description>
 <attribute name="MFGPARTNM" value="BM10B-SRSS-TB(LF)(SN)" x="81.208733" y="65.246267" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="CONN HEADER SMD 10POS 1MM" x="81.208733" y="65.246267" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J8" library="common" package="HDR-1x2T/2/4x2" value="DNF" x="75.565" y="59.7375" rot="R90">
-<attribute name="NAME" value="J8" layer="21" x="73.046372" y="58.98437" size="0.814" align="top-left" rot="R0"/>
-<attribute name="MANUFACTURER" value="3M" x="75.565" y="59.7375" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/3M%20PDFs/951yyy-xx22-AR_Series%20Datasheet.pdf" x="75.565" y="59.7375" size="1.778" layer="27" display="off"/>
-<attribute name="MFGPARTNM" value="951102-8622-AR" x="75.565" y="59.7375" size="1.778" layer="27" display="off"/>
+<element name="J8" library="common" package="HDR-1x2T/2/4x2" value="DNF" x="73.048665" y="59.7375" rot="R90">
+<attribute name="NAME" value="J8" layer="21" x="70.530037" y="58.98437" size="0.814" align="top-left" rot="R0"/>
+<attribute name="MANUFACTURER" value="3M" x="73.048665" y="59.7375" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/3M%20PDFs/951yyy-xx22-AR_Series%20Datasheet.pdf" x="73.048665" y="59.7375" size="1.778" layer="27" display="off"/>
+<attribute name="MFGPARTNM" value="951102-8622-AR" x="73.048665" y="59.7375" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LG1" library="common" package="LooUQ-6mm" value="LOOUQ LOGO" x="85.4075" y="3.913156" rot="R0"/>
+<element name="LG1" library="common" package="LooUQ-6mm" value="LOOUQ LOGO" x="85.4075" y="3.913121" rot="R0"/>
 <element name="LG2" library="common" package="CircuitRiver-6mm" value="CIRCUITRIVER LOGO" x="87.788767" y="50.641233" rot="MR-90"/>
-<element name="P3" library="common" package="BreakoutConn" value="SLEEP" x="45.561233" y="5.3975" rot="R90">
+<element name="P1" library="common" package="BreakoutConn" value="DNF" x="73.423387" y="65.527801" rot="R90">
+<attribute name="NAME" value="~RESET" layer="21" x="70.735511" y="67.85378" size="0.814" align="top-left" rot="R0"/>
+</element>
+<element name="P2" library="common" package="BreakoutConn" value="DNF" x="79.065753" y="60.495131" rot="R90">
+<attribute name="NAME" value="GND" layer="21" x="77.939477" y="62.579155" size="0.814" align="top-left" rot="R0"/>
+</element>
+<element name="P3" library="common" package="BreakoutConn" value="DNF" x="45.561233" y="5.3975" rot="R90">
 <attribute name="NAME" value="Sleep" layer="21" x="44.120445" y="7.77187" size="0.814" align="top-left" rot="R0"/>
 </element>
 </elements>
@@ -586,6 +593,14 @@ Description: CONN HEADER SMD 10POS 1MM</description>
 </signal>
 <signal name="S$2" class="0">
 <via x="40.9575" y="6.35" extent="1-16" drill="0.4" diameter="0.8" shape="round" alwaysstop="no"/>
+</signal>
+<signal name="Net_0">
+<contactref element="J2" pad="16"/>
+<contactref element="P1" pad="1"/>
+<wire layer="1" width="0.2" x1="73.423387" y1="65.527801" x2="71.627763" y2="65.527801"/>
+<wire layer="1" width="0.2" x1="71.627763" y1="65.527801" x2="69.103127" y2="63.003165"/>
+<wire layer="1" width="0.2" x1="69.103127" y1="63.003165" x2="48.715665" y2="63.003165"/>
+<wire layer="1" width="0.2" x1="48.715665" y1="63.003165" x2="47.625" y2="61.9125"/>
 </signal>
 <signal name="Net_1">
 <contactref element="J1" pad="4"/>
@@ -896,6 +911,12 @@ Description: CONN HEADER SMD 10POS 1MM</description>
 <wire layer="1" width="0.2" x1="81.661667" y1="63.795633" x2="81.661667" y2="65.246267"/>
 <wire layer="1" width="0.2" x1="81.661667" y1="65.246267" x2="81.708733" y2="65.246267"/>
 </signal>
+<signal name="Net_24">
+<contactref element="J2" pad="14"/>
+<contactref element="J8" pad="1"/>
+<wire layer="1" width="0.2" x1="73.048665" y1="58.7375" x2="49.53" y2="58.7375"/>
+<wire layer="1" width="0.2" x1="49.53" y1="58.7375" x2="47.625" y2="56.8325"/>
+</signal>
 <signal name="Net_25">
 <contactref element="J2" pad="11"/>
 <contactref element="J7" pad="4"/>
@@ -953,18 +974,17 @@ Description: CONN HEADER SMD 10POS 1MM</description>
 <contactref element="J2" pad="15"/>
 <contactref element="J6" pad="2"/>
 <contactref element="J7" pad="2"/>
-<contactref element="J8" pad="1"/>
-<wire layer="1" width="0.5" x1="83.708733" y1="58.578767" x2="83.708733" y2="59.777"/>
-<wire layer="1" width="0.5" x1="83.708733" y1="59.777" x2="76.6045" y2="59.777"/>
-<wire layer="1" width="0.5" x1="76.6045" y1="59.777" x2="75.565" y2="58.7375"/>
-<wire layer="1" width="1" x1="47.625" y1="59.3725" x2="57.524433" y2="59.3725"/>
-<wire layer="1" width="1" x1="57.524433" y1="59.3725" x2="58.662733" y2="58.7375"/>
-<wire layer="1" width="1" x1="58.662733" y1="58.7375" x2="75.565" y2="58.7375"/>
+<contactref element="J8" pad="2"/>
 <wire layer="1" width="0.5" x1="77.708733" y1="65.246267" x2="77.708733" y2="63.448433"/>
-<wire layer="1" width="0.5" x1="77.708733" y1="63.448433" x2="78.417867" y2="62.7393"/>
+<wire layer="1" width="0.5" x1="77.708733" y1="63.448433" x2="77.797538" y2="63.359629"/>
+<wire layer="1" width="0.5" x1="77.797538" y1="63.359629" x2="78.417867" y2="62.7393"/>
 <wire layer="1" width="0.5" x1="78.417867" y1="62.7393" x2="82.2642" y2="62.7393"/>
 <wire layer="1" width="0.5" x1="82.2642" y1="62.7393" x2="83.708733" y2="61.562467"/>
 <wire layer="1" width="0.5" x1="83.708733" y1="61.562467" x2="83.708733" y2="58.578767"/>
+<wire layer="1" width="0.5" x1="73.048665" y1="60.7375" x2="48.99" y2="60.7375"/>
+<wire layer="1" width="0.5" x1="48.99" y1="60.7375" x2="47.625" y2="59.3725"/>
+<wire layer="1" width="0.5" x1="73.048665" y1="60.7375" x2="75.175409" y2="60.7375"/>
+<wire layer="1" width="0.5" x1="75.175409" y1="60.7375" x2="77.797538" y2="63.359629"/>
 </signal>
 <signal name="Net_GND" class="1">
 <contactref element="J2" pad="13"/>
@@ -973,10 +993,8 @@ Description: CONN HEADER SMD 10POS 1MM</description>
 <contactref element="J5" pad="2"/>
 <contactref element="J6" pad="1"/>
 <contactref element="J7" pad="1"/>
-<contactref element="J8" pad="2"/>
+<contactref element="P2" pad="1"/>
 <via x="78.105" y="54.9275" extent="1-16" drill="0.4" diameter="0.8" shape="round" alwaysstop="no"/>
-<via x="73.818733" y="60.6425" extent="1-16" drill="0.4" diameter="0.8" shape="round" alwaysstop="no"/>
-<via x="77.311267" y="60.6425" extent="1-16" drill="0.4" diameter="0.8" shape="round" alwaysstop="no"/>
 <polygon width="0.635" layer="16" spacing="1.27" isolate="0.33" thermals="no">
 <vertex x="9.8425" y="69.85"/>
 <vertex x="92.3925" y="69.85"/>

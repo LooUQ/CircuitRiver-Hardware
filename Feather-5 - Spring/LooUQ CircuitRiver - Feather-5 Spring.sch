@@ -360,6 +360,10 @@
 <pin name="SDA" visible="pin" length="short" direction="nc" rot="R90" x="2.223" y="-6.595"/>
 <pin name="SCL" visible="pin" length="short" direction="nc" rot="R90" x="6.668" y="-6.595"/>
 </symbol>
+<symbol name="GND">
+<circle layer="94" x="0" y="-0.079" radius="0.952" width="0.75"/>
+<pin name="1" visible="off" length="short" direction="pas" rot="R270" x="0" y="3.572"/>
+</symbol>
 <symbol name="SLEEP">
 <circle layer="94" x="0" y="-0.079" radius="0.952" width="0.75"/>
 <pin name="1" visible="off" length="short" direction="pas" rot="R270" x="0" y="3.572"/>
@@ -502,6 +506,10 @@
 <pin name="P2" visible="off" length="short" direction="pas" rot="R180" x="7.62" y="-1.27"/>
 </symbol>
 <symbol name="LOOUQ_LOGO"/>
+<symbol name="!RESET">
+<circle layer="94" x="0" y="-0.079" radius="0.952" width="0.75"/>
+<pin name="1" visible="off" length="short" direction="pas" rot="R270" x="0" y="3.572"/>
+</symbol>
 <symbol name="FEATHERHOST-S">
 <wire layer="94" width="0.25" x1="-4.128" y1="17.859" x2="4.128" y2="17.859"/>
 <wire layer="94" width="0.25" x1="4.128" y1="17.859" x2="4.128" y2="-17.859"/>
@@ -540,6 +548,23 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="GND" prefix="P">
+<gates>
+<gate name="BRKOUTPAD" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BreakoutConn">
+<connects>
+<connect gate="BRKOUTPAD" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="DNF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="SLEEP" prefix="P">
 <gates>
 <gate name="BRKOUTPAD" symbol="SLEEP" x="0" y="0"/>
@@ -550,7 +575,9 @@
 <connect gate="BRKOUTPAD" pin="1" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VALUE" value="DNF"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -718,6 +745,23 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="~RESET" prefix="P">
+<gates>
+<gate name="BRKOUTPAD" symbol="!RESET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BreakoutConn">
+<connects>
+<connect gate="BRKOUTPAD" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="DNF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="FEATHERHOST-S" prefix="J">
 <gates>
 <gate name="PART_1" symbol="FEATHERHOST-S" x="0" y="0"/>
@@ -769,7 +813,9 @@
 <part name="J8" library="common" deviceset="2PIN_T/H_HEADER" device="" value="DNF"/>
 <part name="LG1" library="common" deviceset="LOOUQ_LOGO" device=""/>
 <part name="LG2" library="common" deviceset="CIRCUITRIVER_LOGO" device=""/>
-<part name="P3" library="common" deviceset="SLEEP" device=""/>
+<part name="P1" library="common" deviceset="~RESET" device="" value="DNF"/>
+<part name="P2" library="common" deviceset="GND" device="" value="DNF"/>
+<part name="P3" library="common" deviceset="SLEEP" device="" value="DNF"/>
 </parts>
 <modules/>
 <sheets>
@@ -815,7 +861,9 @@
 </instance>
 <instance part="LG1" gate="PART_1" x="91.122" y="86.995"/>
 <instance part="LG2" gate="PART_1" x="91.587" y="80.96"/>
-<instance part="P3" gate="BRKOUTPAD" x="101.362" y="-6.033" rot="R270"/>
+<instance part="P1" gate="BRKOUTPAD" x="-57.229" y="-12.7" rot="R90"/>
+<instance part="P2" gate="BRKOUTPAD" x="-57.229" y="-85.566" rot="R90"/>
+<instance part="P3" gate="BRKOUTPAD" x="101.362" y="-5.874" rot="R270"/>
 </instances>
 <busses/>
 <nets>
@@ -977,7 +1025,7 @@
 </net>
 <net name="Net_22" class="0">
 <segment>
-<wire layer="91" width="0.25" x1="106.204" y1="-5.95" x2="104.934" y2="-6.033"/>
+<wire layer="91" width="0.25" x1="106.204" y1="-5.95" x2="104.934" y2="-5.874"/>
 <wire layer="91" width="0.25" x1="106.204" y1="-5.95" x2="106.986" y2="-5.95"/>
 <pinref part="P3" gate="BRKOUTPAD" pin="1"/>
 <pinref part="J3" gate="PART_1" pin="Sleep"/>
@@ -1032,25 +1080,25 @@
 </net>
 <net name="Net_3v3" class="1">
 <segment>
-<wire layer="91" width="0.25" x1="-77.153" y1="-19.844" x2="-82.709" y2="-19.844"/>
-<wire layer="91" width="0.25" x1="-82.709" y1="-19.844" x2="-82.709" y2="-17.308"/>
-<wire layer="91" width="0.25" x1="-82.709" y1="-17.308" x2="-85.563" y2="-17.308"/>
-<pinref part="J8" gate="PART_1" pin="P1"/>
-<pinref part="J2" gate="PART_1" pin="+3V3"/>
 <wire layer="91" width="0.25" x1="-100.965" y1="-5.239" x2="-82.709" y2="-5.239"/>
 <wire layer="91" width="0.25" x1="-82.709" y1="-5.239" x2="-82.709" y2="-17.308"/>
-<pinref part="J6" gate="PART_1" pin="3v3"/>
-<junction x="-82.709" y="-17.308"/>
-<wire layer="91" width="0.25" x1="-82.709" y1="-19.844" x2="-82.709" y2="-82.605"/>
+<wire layer="91" width="0.25" x1="-82.709" y1="-17.308" x2="-82.709" y2="-17.304"/>
+<wire layer="91" width="0.25" x1="-82.709" y1="-17.304" x2="-82.709" y2="-82.605"/>
 <wire layer="91" width="0.25" x1="-82.709" y1="-82.605" x2="-104.989" y2="-82.605"/>
+<pinref part="J6" gate="PART_1" pin="3v3"/>
 <pinref part="J7" gate="PART_1" pin="3v3"/>
-<junction x="-82.709" y="-19.844"/>
+<wire layer="91" width="0.25" x1="-77.153" y1="-17.304" x2="-82.709" y2="-17.304"/>
+<pinref part="J8" gate="PART_1" pin="P2"/>
+<junction x="-82.709" y="-17.304"/>
+<wire layer="91" width="0.25" x1="-85.563" y1="-17.308" x2="-82.709" y2="-17.308"/>
+<pinref part="J2" gate="PART_1" pin="+3V3"/>
+<junction x="-82.709" y="-17.308"/>
 </segment>
 </net>
 <net name="Net_GND" class="1">
 <segment>
-<wire layer="91" width="0.25" x1="-85.542" y1="-22.388" x2="-81.28" y2="-22.388"/>
-<wire layer="91" width="0.25" x1="-81.28" y1="-22.388" x2="-52.229" y2="-22.388"/>
+<wire layer="91" width="0.25" x1="-85.542" y1="-22.388" x2="-80.962" y2="-22.388"/>
+<wire layer="91" width="0.25" x1="-80.962" y1="-22.388" x2="-52.229" y2="-22.388"/>
 <wire layer="91" width="0.25" x1="-52.229" y1="-22.388" x2="-52.229" y2="-9.684"/>
 <wire layer="91" width="0.25" x1="-52.229" y1="-9.684" x2="-52.229" y2="44.05"/>
 <wire layer="91" width="0.25" x1="93.504" y1="44.05" x2="106.986" y2="44.05"/>
@@ -1065,18 +1113,17 @@
 <wire layer="91" width="0.25" x1="-52.229" y1="66.345" x2="-52.229" y2="44.05"/>
 <pinref part="J5" gate="PART_1" pin="P2"/>
 <junction x="-52.229" y="44.05"/>
-<wire layer="91" width="0.25" x1="-100.965" y1="-9.684" x2="-80.327" y2="-9.684"/>
-<wire layer="91" width="0.25" x1="-80.327" y1="-9.684" x2="-52.229" y2="-9.684"/>
+<wire layer="91" width="0.25" x1="-100.965" y1="-9.684" x2="-52.229" y2="-9.684"/>
 <pinref part="J6" gate="PART_1" pin="GND"/>
 <junction x="-52.229" y="-9.684"/>
-<wire layer="91" width="0.25" x1="-77.153" y1="-17.304" x2="-80.327" y2="-17.304"/>
-<wire layer="91" width="0.25" x1="-80.327" y1="-17.304" x2="-80.327" y2="-9.684"/>
-<pinref part="J8" gate="PART_1" pin="P2"/>
-<junction x="-80.327" y="-9.684"/>
-<wire layer="91" width="0.25" x1="-81.28" y1="-22.388" x2="-81.28" y2="-85.551"/>
-<wire layer="91" width="0.25" x1="-81.28" y1="-85.551" x2="-104.989" y2="-85.551"/>
+<wire layer="91" width="0.25" x1="-80.962" y1="-22.388" x2="-80.962" y2="-85.551"/>
+<wire layer="91" width="0.25" x1="-80.962" y1="-85.551" x2="-104.989" y2="-85.551"/>
 <pinref part="J7" gate="PART_1" pin="GND"/>
-<junction x="-81.28" y="-22.388"/>
+<junction x="-80.962" y="-22.388"/>
+<wire layer="91" width="0.25" x1="-62.071" y1="-85.551" x2="-60.801" y2="-85.566"/>
+<wire layer="91" width="0.25" x1="-62.071" y1="-85.551" x2="-80.962" y2="-85.551"/>
+<pinref part="P2" gate="BRKOUTPAD" pin="1"/>
+<junction x="-80.962" y="-85.551"/>
 </segment>
 </net>
 <net name="Net_VBAT" class="1">
@@ -1089,6 +1136,23 @@
 <wire layer="91" width="0.25" x1="97.621" y1="61.271" x2="97.621" y2="39.048"/>
 <pinref part="J4" gate="PART_1" pin="P1"/>
 <junction x="97.621" y="39.048"/>
+</segment>
+</net>
+<net name="Net_24" class="0">
+<segment>
+<wire layer="91" width="0.25" x1="-78.423" y1="-19.848" x2="-77.153" y2="-19.844"/>
+<wire layer="91" width="0.25" x1="-78.423" y1="-19.848" x2="-85.552" y2="-19.848"/>
+<pinref part="J8" gate="PART_1" pin="P1"/>
+<pinref part="J2" gate="PART_1" pin="AREF"/>
+</segment>
+</net>
+<net name="Net_0" class="0">
+<segment>
+<wire layer="91" width="0.25" x1="-60.801" y1="-12.7" x2="-80.804" y2="-12.7"/>
+<wire layer="91" width="0.25" x1="-80.804" y1="-12.7" x2="-80.804" y2="-14.768"/>
+<wire layer="91" width="0.25" x1="-80.804" y1="-14.768" x2="-85.573" y2="-14.768"/>
+<pinref part="P1" gate="BRKOUTPAD" pin="1"/>
+<pinref part="J2" gate="PART_1" pin="!RESET"/>
 </segment>
 </net>
 </nets>

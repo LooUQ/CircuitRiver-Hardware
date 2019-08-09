@@ -75,9 +75,6 @@
 <libraries>
 <library name="common">
 <packages>
-<package name="BreakoutConn">
-<pad name="1" x="0" y="0" drill="0.9" diameter="2" rot="R0" stop="yes" thermals="no"/>
-</package>
 <package name="CircuitRiver-6mm">
 <polygon layer="21" width="0.002">
 <vertex x="-0.175" y="2.975"/>
@@ -100,6 +97,9 @@
 <vertex x="-0.225" y="-2.975"/>
 <vertex x="1.425" y="-1.35"/>
 </polygon>
+</package>
+<package name="BreakoutConn">
+<pad name="1" x="0" y="0" drill="0.9" diameter="2" rot="R0" stop="yes" thermals="no"/>
 </package>
 <package name="TC_2917">
 <smd name="1" x="-3.2" y="0" layer="1" dx="2.6" dy="2.4" rot="R0" stop="yes" cream="yes" thermals="no"/>
@@ -401,11 +401,11 @@
 </package>
 </packages>
 <symbols>
-<symbol name="SLEEP">
+<symbol name="CIRCUITRIVER_LOGO"/>
+<symbol name="DNF">
 <circle layer="94" x="0" y="-0.079" radius="0.952" width="0.75"/>
 <pin name="1" visible="off" length="short" direction="pas" rot="R270" x="0" y="3.572"/>
 </symbol>
-<symbol name="CIRCUITRIVER_LOGO"/>
 <symbol name="DEV_C1">
 <wire layer="94" width="0.254" x1="0.944" y1="1.911" x2="0.944" y2="-1.911" curve="74.02156"/>
 <wire layer="94" width="0.25" x1="-1.27" y1="0" x2="-0.33" y2="0"/>
@@ -664,21 +664,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SLEEP" prefix="P">
-<gates>
-<gate name="BRKOUTPAD" symbol="SLEEP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BreakoutConn">
-<connects>
-<connect gate="BRKOUTPAD" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CIRCUITRIVER_LOGO" prefix="LG">
 <gates>
 <gate name="PART_1" symbol="CIRCUITRIVER_LOGO" x="0" y="0"/>
@@ -686,6 +671,21 @@
 <devices>
 <device name="" package="CircuitRiver-6mm">
 <connects/>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DNF" prefix="P">
+<gates>
+<gate name="BRKOUTPAD" symbol="DNF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BreakoutConn">
+<connects>
+<connect gate="BRKOUTPAD" pin="1" pad="1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1086,7 +1086,9 @@
 <part name="L1" library="common" deviceset="SHIELDED_INDUCTOR_-_PANASONICH" device="" value="100uH"/>
 <part name="LG1" library="common" deviceset="LOOUQ_LOGO" device=""/>
 <part name="LG2" library="common" deviceset="CIRCUITRIVER_LOGO" device=""/>
-<part name="P3" library="common" deviceset="SLEEP" device=""/>
+<part name="P1" library="common" deviceset="DNF" device=""/>
+<part name="P2" library="common" deviceset="DNF" device=""/>
+<part name="P3" library="common" deviceset="DNF" device=""/>
 <part name="R1" library="common" deviceset="RES_0603" device="" value="12M"/>
 <part name="R2" library="common" deviceset="RES_0603" device="" value="1.5M"/>
 <part name="R3" library="common" deviceset="1%_VPROG" device="" value="1.5K"/>
@@ -1172,6 +1174,8 @@
 </instance>
 <instance part="LG1" gate="PART_1" x="114.776" y="131.128"/>
 <instance part="LG2" gate="PART_1" x="115.24" y="125.093"/>
+<instance part="P1" gate="BRKOUTPAD" x="-57.229" y="-13.176" rot="R90"/>
+<instance part="P2" gate="BRKOUTPAD" x="-57.071" y="-85.566" rot="R90"/>
 <instance part="P3" gate="BRKOUTPAD" x="101.362" y="-6.033" rot="R270"/>
 <instance part="R1" gate="PART_1" x="-52.223" y="100.477" rot="R90">
 <attribute name="NAME" value="R1" layer="95" x="-56.237" y="99.549" size="1.628" align="top-left" rot="R90"/>
@@ -1195,16 +1199,6 @@
 </instances>
 <busses/>
 <nets>
-<net name="Net_VBUS" class="1">
-<segment>
-<wire layer="91" width="0.25" x1="73.028" y1="78.581" x2="73.028" y2="51.594"/>
-<wire layer="91" width="0.25" x1="73.028" y1="51.594" x2="-61.913" y2="51.594"/>
-<wire layer="91" width="0.25" x1="-61.913" y1="51.594" x2="-61.913" y2="33.969"/>
-<wire layer="91" width="0.25" x1="-61.913" y1="33.969" x2="-85.94" y2="33.969"/>
-<pinref part="D2" gate="PART_1" pin="C"/>
-<pinref part="J1" gate="PART_1" pin="VBUS"/>
-</segment>
-</net>
 <net name="Net_1" class="0">
 <segment>
 <wire layer="91" width="0.25" x1="-85.926" y1="31.429" x2="-10.954" y2="31.429"/>
@@ -1226,23 +1220,6 @@
 <wire layer="91" width="0.25" x1="-55.404" y1="-59.039" x2="-104.989" y2="-59.039"/>
 <pinref part="J7" gate="PART_1" pin="MISO"/>
 <junction x="-55.404" y="-45.248"/>
-</segment>
-</net>
-<net name="Net_VSW" class="1">
-<segment>
-<wire layer="91" width="0.25" x1="32.861" y1="88.741" x2="32.861" y2="101.113"/>
-<wire layer="91" width="0.25" x1="32.861" y1="101.113" x2="36.189" y2="101.113"/>
-<pinref part="D1" gate="PART_1" pin="C"/>
-<pinref part="L1" gate="PART_1" pin="1"/>
-<wire layer="91" width="0.25" x1="-5.106" y1="111.81" x2="-3.836" y2="111.81"/>
-<wire layer="91" width="0.25" x1="-5.106" y1="111.81" x2="-5.106" y2="101.113"/>
-<wire layer="91" width="0.25" x1="-5.106" y1="101.113" x2="32.861" y2="101.113"/>
-<pinref part="U2" gate="PART_1" pin="VSW"/>
-<junction x="32.861" y="101.113"/>
-<wire layer="91" width="0.25" x1="30.318" y1="111.748" x2="32.861" y2="111.748"/>
-<wire layer="91" width="0.25" x1="32.861" y1="111.748" x2="32.861" y2="101.113"/>
-<pinref part="C3" gate="PART_1" pin="2"/>
-<junction x="32.861" y="101.113"/>
 </segment>
 </net>
 <net name="Net_4" class="0">
@@ -1476,21 +1453,38 @@
 <pinref part="J1" gate="PART_1" pin="SCI"/>
 </segment>
 </net>
+<net name="Net_29" class="0">
+<segment>
+<wire layer="91" width="0.25" x1="-78.423" y1="-19.848" x2="-77.153" y2="-19.844"/>
+<wire layer="91" width="0.25" x1="-78.423" y1="-19.848" x2="-85.552" y2="-19.848"/>
+<pinref part="J8" gate="PART_1" pin="P1"/>
+<pinref part="J2" gate="PART_1" pin="AREF"/>
+</segment>
+</net>
+<net name="Net_30" class="0">
+<segment>
+<wire layer="91" width="0.25" x1="-60.801" y1="-13.176" x2="-80.804" y2="-13.176"/>
+<wire layer="91" width="0.25" x1="-80.804" y1="-13.176" x2="-80.804" y2="-14.768"/>
+<wire layer="91" width="0.25" x1="-80.804" y1="-14.768" x2="-85.573" y2="-14.768"/>
+<pinref part="P1" gate="BRKOUTPAD" pin="1"/>
+<pinref part="J2" gate="PART_1" pin="!RESET"/>
+</segment>
+</net>
 <net name="Net_3v3" class="1">
 <segment>
-<wire layer="91" width="0.25" x1="-77.153" y1="-19.844" x2="-82.709" y2="-19.844"/>
-<wire layer="91" width="0.25" x1="-82.709" y1="-19.844" x2="-82.709" y2="-17.308"/>
-<wire layer="91" width="0.25" x1="-82.709" y1="-17.308" x2="-85.563" y2="-17.308"/>
-<pinref part="J8" gate="PART_1" pin="P1"/>
-<pinref part="J2" gate="PART_1" pin="+3V3"/>
 <wire layer="91" width="0.25" x1="-100.965" y1="-5.239" x2="-82.709" y2="-5.239"/>
-<wire layer="91" width="0.25" x1="-82.709" y1="-5.239" x2="-82.709" y2="-17.308"/>
+<wire layer="91" width="0.25" x1="-82.709" y1="-17.304" x2="-82.709" y2="-17.308"/>
+<wire layer="91" width="0.25" x1="-82.709" y1="-5.239" x2="-82.709" y2="-17.304"/>
+<wire layer="91" width="0.25" x1="-82.709" y1="-17.308" x2="-85.563" y2="-17.308"/>
 <pinref part="J6" gate="PART_1" pin="3v3"/>
-<junction x="-82.709" y="-17.308"/>
-<wire layer="91" width="0.25" x1="-82.709" y1="-19.844" x2="-82.709" y2="-82.605"/>
+<pinref part="J2" gate="PART_1" pin="+3V3"/>
+<wire layer="91" width="0.25" x1="-82.709" y1="-17.308" x2="-82.709" y2="-82.605"/>
 <wire layer="91" width="0.25" x1="-82.709" y1="-82.605" x2="-104.989" y2="-82.605"/>
 <pinref part="J7" gate="PART_1" pin="3v3"/>
-<junction x="-82.709" y="-19.844"/>
+<junction x="-82.709" y="-17.308"/>
+<wire layer="91" width="0.25" x1="-77.153" y1="-17.304" x2="-82.709" y2="-17.304"/>
+<pinref part="J8" gate="PART_1" pin="P2"/>
+<junction x="-82.709" y="-17.304"/>
 </segment>
 </net>
 <net name="Net_GND" class="1">
@@ -1544,18 +1538,17 @@
 <wire layer="91" width="0.25" x1="93.504" y1="63.811" x2="93.504" y2="44.05"/>
 <pinref part="J4" gate="PART_1" pin="P2"/>
 <junction x="93.504" y="44.05"/>
-<wire layer="91" width="0.25" x1="-100.965" y1="-9.684" x2="-80.327" y2="-9.684"/>
-<wire layer="91" width="0.25" x1="-80.327" y1="-9.684" x2="-52.229" y2="-9.684"/>
+<wire layer="91" width="0.25" x1="-100.965" y1="-9.684" x2="-52.229" y2="-9.684"/>
 <pinref part="J6" gate="PART_1" pin="GND"/>
 <junction x="-52.229" y="-9.684"/>
-<wire layer="91" width="0.25" x1="-77.153" y1="-17.304" x2="-80.327" y2="-17.304"/>
-<wire layer="91" width="0.25" x1="-80.327" y1="-17.304" x2="-80.327" y2="-9.684"/>
-<pinref part="J8" gate="PART_1" pin="P2"/>
-<junction x="-80.327" y="-9.684"/>
 <wire layer="91" width="0.25" x1="-81.28" y1="-22.388" x2="-81.28" y2="-85.551"/>
 <wire layer="91" width="0.25" x1="-81.28" y1="-85.551" x2="-104.989" y2="-85.551"/>
 <pinref part="J7" gate="PART_1" pin="GND"/>
 <junction x="-81.28" y="-22.388"/>
+<wire layer="91" width="0.25" x1="-61.912" y1="-85.551" x2="-60.643" y2="-85.566"/>
+<wire layer="91" width="0.25" x1="-61.912" y1="-85.551" x2="-81.28" y2="-85.551"/>
+<pinref part="P2" gate="BRKOUTPAD" pin="1"/>
+<junction x="-81.28" y="-85.551"/>
 </segment>
 </net>
 <net name="Net_VBAT" class="1">
@@ -1568,6 +1561,16 @@
 <wire layer="91" width="0.25" x1="97.621" y1="61.271" x2="97.621" y2="39.048"/>
 <pinref part="J4" gate="PART_1" pin="P1"/>
 <junction x="97.621" y="39.048"/>
+</segment>
+</net>
+<net name="Net_VBUS" class="1">
+<segment>
+<wire layer="91" width="0.25" x1="73.028" y1="78.581" x2="73.028" y2="51.594"/>
+<wire layer="91" width="0.25" x1="73.028" y1="51.594" x2="-61.913" y2="51.594"/>
+<wire layer="91" width="0.25" x1="-61.913" y1="51.594" x2="-61.913" y2="33.969"/>
+<wire layer="91" width="0.25" x1="-61.913" y1="33.969" x2="-85.94" y2="33.969"/>
+<pinref part="D2" gate="PART_1" pin="C"/>
+<pinref part="J1" gate="PART_1" pin="VBUS"/>
 </segment>
 </net>
 <net name="Net_VIn" class="1">
@@ -1584,6 +1587,23 @@
 <wire layer="91" width="0.25" x1="-52.223" y1="115.875" x2="-69.049" y2="115.875"/>
 <pinref part="J5" gate="PART_1" pin="P1"/>
 <junction x="-52.223" y="115.875"/>
+</segment>
+</net>
+<net name="Net_VSW" class="1">
+<segment>
+<wire layer="91" width="0.25" x1="32.861" y1="88.741" x2="32.861" y2="101.113"/>
+<wire layer="91" width="0.25" x1="32.861" y1="101.113" x2="36.189" y2="101.113"/>
+<pinref part="D1" gate="PART_1" pin="C"/>
+<pinref part="L1" gate="PART_1" pin="1"/>
+<wire layer="91" width="0.25" x1="-5.106" y1="111.81" x2="-3.836" y2="111.81"/>
+<wire layer="91" width="0.25" x1="-5.106" y1="111.81" x2="-5.106" y2="101.113"/>
+<wire layer="91" width="0.25" x1="-5.106" y1="101.113" x2="32.861" y2="101.113"/>
+<pinref part="U2" gate="PART_1" pin="VSW"/>
+<junction x="32.861" y="101.113"/>
+<wire layer="91" width="0.25" x1="30.318" y1="111.748" x2="32.861" y2="111.748"/>
+<wire layer="91" width="0.25" x1="32.861" y1="111.748" x2="32.861" y2="101.113"/>
+<pinref part="C3" gate="PART_1" pin="2"/>
+<junction x="32.861" y="101.113"/>
 </segment>
 </net>
 </nets>
