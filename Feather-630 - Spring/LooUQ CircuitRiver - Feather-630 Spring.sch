@@ -98,9 +98,6 @@
 <vertex x="1.425" y="-1.35"/>
 </polygon>
 </package>
-<package name="BreakoutConn">
-<pad name="1" x="0" y="0" drill="0.9" diameter="2" rot="R0" stop="yes" thermals="no"/>
-</package>
 <package name="TC_2917">
 <smd name="1" x="-3.2" y="0" layer="1" dx="2.6" dy="2.4" rot="R0" stop="yes" cream="yes" thermals="no"/>
 <smd name="2" x="3.2" y="0" layer="1" dx="2.6" dy="2.4" rot="R0" stop="yes" cream="yes" thermals="no"/>
@@ -130,21 +127,9 @@
 <wire layer="21" width="0.25" x1="8.2" y1="-2.2" x2="-8.2" y2="-2.2"/>
 <wire layer="21" width="0.25" x1="-8.2" y1="-2.2" x2="-8.2" y2="2.2"/>
 </package>
-<package name="JST_PH-2_T/H">
-<pad name="1" x="0" y="-1" drill="1.1" shape="square" diameter="1.7" rot="R0" stop="yes" thermals="no"/>
-<pad name="2" x="0" y="1" drill="1.1" diameter="1.7" rot="R0" stop="yes" thermals="no"/>
-<wire layer="21" width="0.25" x1="-1.27" y1="2.54" x2="1.27" y2="2.54"/>
-<wire layer="21" width="0.25" x1="1.27" y1="2.54" x2="1.27" y2="-2.54"/>
-<wire layer="21" width="0.25" x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54"/>
-<wire layer="21" width="0.25" x1="-1.27" y1="-2.54" x2="-1.27" y2="2.54"/>
-<wire layer="21" width="0.25" x1="-1.65" y1="2.9" x2="6.2" y2="2.9"/>
-<wire layer="21" width="0.25" x1="6.2" y1="2.9" x2="6.2" y2="-2.9"/>
-<wire layer="21" width="0.25" x1="6.2" y1="-2.9" x2="-1.65" y2="-2.9"/>
-<wire layer="21" width="0.25" x1="-1.65" y1="-2.9" x2="-1.65" y2="2.9"/>
-</package>
 <package name="LooUQ-6mm">
 <wire layer="21" width="0.32" x1="-5.863" y1="1.125" x2="-5.863" y2="-1.675"/>
-<wire layer="21" width="0.25" x1="-1.987" y1="2.1" x2="-3.637" y2="1.6" curve="112.714052"/>
+<wire layer="21" width="0.25" x1="-1.987" y1="2.101" x2="-3.637" y2="1.6" curve="112.716068"/>
 <wire layer="21" width="0.32" x1="-5.838" y1="-1.725" x2="-4.562" y2="-1.725"/>
 <wire layer="21" width="0.333" x1="-2.488" y1="-0.813" x2="-2.531" y2="-0.508"/>
 <wire layer="21" width="0.333" x1="-2.531" y1="-0.508" x2="-2.655" y2="-0.232"/>
@@ -166,9 +151,9 @@
 <wire layer="21" width="0.333" x1="-2.849" y1="-1.612" x2="-2.655" y2="-1.393"/>
 <wire layer="21" width="0.333" x1="-2.655" y1="-1.393" x2="-2.531" y2="-1.118"/>
 <wire layer="21" width="0.333" x1="-2.531" y1="-1.118" x2="-2.488" y2="-0.813"/>
-<wire layer="21" width="0.32" x1="-3.688" y1="1.575" x2="-3.688" y2="0.6" curve="203.662902"/>
-<wire layer="21" width="0.32" x1="-0.762" y1="1.825" x2="-1.987" y2="2.125" curve="65.398411"/>
-<wire layer="21" width="0.32" x1="-0.713" y1="0.6" x2="-0.738" y2="1.8" curve="182.32932"/>
+<wire layer="21" width="0.32" x1="-3.688" y1="1.575" x2="-3.688" y2="0.6" curve="203.659625"/>
+<wire layer="21" width="0.32" x1="-0.762" y1="1.825" x2="-1.987" y2="2.125" curve="65.400002"/>
+<wire layer="21" width="0.32" x1="-0.713" y1="0.6" x2="-0.738" y2="1.8" curve="182.325973"/>
 <wire layer="21" width="0.32" x1="-3.663" y1="0.6" x2="-0.713" y2="0.6"/>
 <wire layer="21" width="0.4" x1="5.637" y1="-0.388" x2="5.575" y2="0.034"/>
 <wire layer="21" width="0.4" x1="5.575" y1="0.034" x2="5.394" y2="0.414"/>
@@ -190,8 +175,8 @@
 <wire layer="21" width="0.4" x1="5.112" y1="-1.49" x2="5.394" y2="-1.189"/>
 <wire layer="21" width="0.4" x1="5.394" y1="-1.189" x2="5.575" y2="-0.809"/>
 <wire layer="21" width="0.4" x1="5.575" y1="-0.809" x2="5.637" y2="-0.388"/>
-<wire layer="21" width="0.3" x1="4.663" y1="-1.85" x2="5.863" y2="-2.075" curve="89.872203"/>
-<wire layer="21" width="0.4" x1="0.563" y1="-0.9" x2="2.387" y2="-0.925" curve="180.148309"/>
+<wire layer="21" width="0.3" x1="4.663" y1="-1.85" x2="5.863" y2="-2.076" curve="89.874521"/>
+<wire layer="21" width="0.4" x1="0.563" y1="-0.9" x2="2.387" y2="-0.925" curve="180.151653"/>
 <wire layer="21" width="0.333" x1="-0.163" y1="-0.813" x2="-0.206" y2="-0.508"/>
 <wire layer="21" width="0.333" x1="-0.206" y1="-0.508" x2="-0.332" y2="-0.232"/>
 <wire layer="21" width="0.333" x1="-0.332" y1="-0.232" x2="-0.529" y2="-0.014"/>
@@ -215,7 +200,7 @@
 <wire layer="21" width="0.4" x1="0.563" y1="0.975" x2="0.563" y2="-0.876"/>
 <wire layer="21" width="0.4" x1="2.387" y1="0.975" x2="2.387" y2="-0.876"/>
 </package>
-<package name="JST-SH_SMD-TopEntry_Qwiic">
+<package name="JST_SH-04_VERT_SMD_Qwiic">
 <description>Description: JST SH Surface Mount, Top-Entry</description>
 <smd name="1" x="-1.5" y="0" layer="1" dx="0.6" dy="1.55" rot="R0" stop="yes" cream="yes" thermals="no"/>
 <smd name="2" x="-0.5" y="0" layer="1" dx="0.6" dy="1.55" rot="R0" stop="yes" cream="yes" thermals="no"/>
@@ -281,6 +266,18 @@
 <wire layer="51" width="0.25" x1="-15.96" y1="1.52" x2="15.96" y2="1.52"/>
 <text x="-2.566" y="2.665" size="0.493" layer="51" font="vector" ratio="10" rot="R0" align="top-left" distance="50">BOARD EDGE</text>
 </package>
+<package name="JST_PH-2_R/A_T/H">
+<pad name="1" x="0" y="-1" drill="1.1" shape="square" diameter="1.7" rot="R0" stop="yes" thermals="no"/>
+<pad name="2" x="0" y="1" drill="1.1" diameter="1.7" rot="R0" stop="yes" thermals="no"/>
+<wire layer="21" width="0.25" x1="-1.27" y1="2.54" x2="1.27" y2="2.54"/>
+<wire layer="21" width="0.25" x1="1.27" y1="2.54" x2="1.27" y2="-2.54"/>
+<wire layer="21" width="0.25" x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54"/>
+<wire layer="21" width="0.25" x1="-1.27" y1="-2.54" x2="-1.27" y2="2.54"/>
+<wire layer="21" width="0.25" x1="-1.65" y1="2.9" x2="6.2" y2="2.9"/>
+<wire layer="21" width="0.25" x1="6.2" y1="2.9" x2="6.2" y2="-2.9"/>
+<wire layer="21" width="0.25" x1="6.2" y1="-2.9" x2="-1.65" y2="-2.9"/>
+<wire layer="21" width="0.25" x1="-1.65" y1="-2.9" x2="-1.65" y2="2.9"/>
+</package>
 <package name="HDR-1x16T/2.54/40x2">
 <pad name="1" x="-19.05" y="0" drill="1.1" shape="square" diameter="1.7" rot="R0" stop="yes" thermals="no"/>
 <pad name="2" x="-16.51" y="0" drill="1.1" diameter="1.7" rot="R0" stop="yes" thermals="no"/>
@@ -305,12 +302,20 @@
 <wire layer="51" width="0.25" x1="-21.28" y1="1.52" x2="21.28" y2="1.52"/>
 <text x="-2.566" y="2.665" size="0.493" layer="51" font="vector" ratio="10" rot="R0" align="top-left" distance="50">BOARD EDGE</text>
 </package>
+<package name="JST_PH-2_VERT_T/H">
+<pad name="1" x="0" y="-1" drill="1.1" shape="square" diameter="1.7" rot="R0" stop="yes" thermals="no"/>
+<pad name="2" x="0" y="1" drill="1.1" diameter="1.7" rot="R0" stop="yes" thermals="no"/>
+<wire layer="21" width="0.25" x1="-1.27" y1="2.54" x2="1.27" y2="2.54"/>
+<wire layer="21" width="0.25" x1="1.27" y1="2.54" x2="1.27" y2="-2.54"/>
+<wire layer="21" width="0.25" x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54"/>
+<wire layer="21" width="0.25" x1="-1.27" y1="-2.54" x2="-1.27" y2="2.54"/>
+</package>
 <package name="SOD-123">
 <smd name="1" x="-1.7" y="0" layer="1" dx="0.8" dy="1.6" rot="R0" stop="yes" cream="yes" thermals="no"/>
 <smd name="2" x="1.7" y="0" layer="1" dx="0.8" dy="1.6" rot="R0" stop="yes" cream="yes" thermals="no"/>
 <wire layer="21" width="0.25" x1="-0.9" y1="0.8" x2="0.9" y2="0.8"/>
 <wire layer="21" width="0.25" x1="-0.9" y1="-0.8" x2="0.9" y2="-0.8"/>
-<wire layer="21" width="0.25" x1="-2.513" y1="0.9" x2="-2.513" y2="-0.9"/>
+<circle layer="21" x="-2.65" y="0" radius="0.2" width="0"/>
 </package>
 <package name="JST-SH_SMD-TopEntry_Rapids">
 <description>Description: JST SH Surface Mount, Top-Entry</description>
@@ -367,9 +372,20 @@
 <wire layer="21" width="0.25" x1="-2" y1="1.1" x2="-2" y2="-1.1"/>
 <wire layer="21" width="0.25" x1="2" y1="1.1" x2="2" y2="-1.1"/>
 </package>
+<package name="Bourns_SRR1260_Series">
+<smd name="1" x="-3.85" y="0" layer="1" dx="2.9" dy="5.4" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="2" x="3.85" y="0.117" layer="1" dx="2.9" dy="5.4" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<wire layer="21" width="0.25" x1="-6.25" y1="6.25" x2="6.25" y2="6.25"/>
+<wire layer="21" width="0.25" x1="6.25" y1="6.25" x2="6.25" y2="-6.25"/>
+<wire layer="21" width="0.25" x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25"/>
+<wire layer="21" width="0.25" x1="-6.25" y1="-6.25" x2="-6.25" y2="6.25"/>
+</package>
 <package name="RES_0603">
 <smd name="1" x="-0.85" y="0" layer="1" dx="1" dy="1.1" rot="R90" stop="yes" cream="yes" thermals="no"/>
 <smd name="2" x="0.85" y="0" layer="1" dx="1" dy="1.1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+</package>
+<package name="BreakoutConn">
+<pad name="1" x="0" y="0" drill="0.9" diameter="2" rot="R0" stop="yes" thermals="no"/>
 </package>
 <package name="SOIC-8/150mil">
 <smd name="1" x="-2.7" y="1.905" layer="1" dx="0.6" dy="2" rot="R90" stop="yes" cream="yes" thermals="no"/>
@@ -387,25 +403,9 @@
 <wire layer="21" width="0.25" x1="0.5" y1="2.5" x2="1.3" y2="2.5"/>
 <wire layer="21" width="0.25" x1="-0.5" y1="2.5" x2="0.5" y2="2.5" curve="179.947301"/>
 </package>
-<package name="Panasonic_H-Series_Inductor">
-<smd name="1" x="-2.85" y="0" layer="1" dx="1.7" dy="3.8" rot="R0" stop="yes" cream="yes" thermals="no"/>
-<smd name="2" x="2.85" y="0" layer="1" dx="1.7" dy="3.8" rot="R0" stop="yes" cream="yes" thermals="no"/>
-<wire layer="21" width="0.25" x1="-2.892" y1="-2.174" x2="-2.891" y2="-2.888"/>
-<wire layer="21" width="0.25" x1="3.109" y1="-2.174" x2="3.109" y2="-2.888"/>
-<wire layer="21" width="0.25" x1="-2.882" y1="-2.947" x2="3.087" y2="-2.937"/>
-<wire layer="21" width="0.25" x1="-2.941" y1="2.573" x2="-2.926" y2="2.114"/>
-<wire layer="21" width="0.25" x1="3.059" y1="2.684" x2="3.074" y2="2.114"/>
-<wire layer="21" width="0.25" x1="-2.443" y1="3.117" x2="2.562" y2="3.117"/>
-<wire layer="21" width="0.25" x1="-2.492" y1="3.113" x2="-2.939" y2="2.593"/>
-<wire layer="21" width="0.25" x1="2.611" y1="3.123" x2="3.057" y2="2.701"/>
-</package>
 </packages>
 <symbols>
 <symbol name="CIRCUITRIVER_LOGO"/>
-<symbol name="DNF">
-<circle layer="94" x="0" y="-0.079" radius="0.952" width="0.75"/>
-<pin name="1" visible="off" length="short" direction="pas" rot="R270" x="0" y="3.572"/>
-</symbol>
 <symbol name="DEV_C1">
 <wire layer="94" width="0.254" x1="0.944" y1="1.911" x2="0.944" y2="-1.911" curve="74.02156"/>
 <wire layer="94" width="0.25" x1="-1.27" y1="0" x2="-0.33" y2="0"/>
@@ -486,20 +486,6 @@
 <pin name="NewEvent" visible="pin" length="short" direction="pas" x="-10.715" y="-37.615"/>
 <pin name="(future)" visible="pin" length="short" direction="pas" x="-10.715" y="-32.773"/>
 </symbol>
-<symbol name="JST_PH-2_T/H">
-<wire layer="94" width="0.25" x1="-0.635" y1="1.27" x2="0.635" y2="2.54"/>
-<wire layer="94" width="0.25" x1="-0.635" y1="1.27" x2="0.635" y2="0"/>
-<wire layer="94" width="0.25" x1="-0.635" y1="1.27" x2="5.08" y2="1.27"/>
-<wire layer="94" width="0.25" x1="-0.635" y1="-1.27" x2="0.635" y2="0"/>
-<wire layer="94" width="0.25" x1="-0.635" y1="-1.27" x2="0.635" y2="-2.54"/>
-<wire layer="94" width="0.25" x1="-0.635" y1="-1.27" x2="5.08" y2="-1.27"/>
-<wire layer="94" width="0.25" x1="-5.08" y1="2.54" x2="5.08" y2="2.54"/>
-<wire layer="94" width="0.25" x1="5.08" y1="2.54" x2="5.08" y2="-2.54"/>
-<wire layer="94" width="0.25" x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54"/>
-<wire layer="94" width="0.25" x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54"/>
-<pin name="P1" visible="off" length="short" direction="pas" rot="R180" x="7.62" y="1.27"/>
-<pin name="P2" visible="off" length="short" direction="pas" rot="R180" x="7.62" y="-1.27"/>
-</symbol>
 <symbol name="LOOUQ_LOGO"/>
 <symbol name="DEV_C2">
 <wire layer="94" width="0.254" x1="0.944" y1="1.911" x2="0.944" y2="-1.911" curve="74.02156"/>
@@ -547,6 +533,20 @@
 <pin name="SCI" visible="off" length="short" direction="nc" rot="R180" x="4.272" y="-11.35"/>
 <pin name="SDA" visible="off" length="short" direction="nc" rot="R180" x="4.286" y="-13.89"/>
 </symbol>
+<symbol name="JST_PH-2_R/A_T/H">
+<wire layer="94" width="0.25" x1="1.191" y1="1.27" x2="-0.079" y2="2.54"/>
+<wire layer="94" width="0.25" x1="-0.079" y1="0" x2="1.191" y2="1.27"/>
+<wire layer="94" width="0.25" x1="-4.842" y1="1.27" x2="0.873" y2="1.27"/>
+<wire layer="94" width="0.25" x1="1.191" y1="-1.27" x2="-0.079" y2="0"/>
+<wire layer="94" width="0.25" x1="-0.079" y1="-2.54" x2="1.191" y2="-1.27"/>
+<wire layer="94" width="0.25" x1="-4.842" y1="-1.27" x2="0.873" y2="-1.27"/>
+<wire layer="94" width="0.25" x1="-5.001" y1="2.54" x2="5.159" y2="2.54"/>
+<wire layer="94" width="0.25" x1="5.159" y1="2.54" x2="5.159" y2="-2.54"/>
+<wire layer="94" width="0.25" x1="5.159" y1="-2.54" x2="-5.001" y2="-2.54"/>
+<wire layer="94" width="0.25" x1="-5.001" y1="-2.54" x2="-5.001" y2="2.54"/>
+<pin name="P1" visible="off" length="short" direction="pas" x="-7.699" y="-1.27"/>
+<pin name="P2" visible="off" length="short" direction="pas" x="-7.699" y="1.27"/>
+</symbol>
 <symbol name="FEATHERHOST-L">
 <wire layer="94" width="0.25" x1="-4.604" y1="20.796" x2="4.604" y2="20.796"/>
 <wire layer="94" width="0.25" x1="4.604" y1="20.796" x2="4.604" y2="-20.796"/>
@@ -568,6 +568,20 @@
 <pin name="AREF" visible="off" length="short" direction="nc" rot="R180" x="4.466" y="13.652"/>
 <pin name="+3V3" visible="off" length="short" direction="nc" rot="R180" x="4.455" y="16.192"/>
 <pin name="!RESET" visible="off" length="short" direction="nc" rot="R180" x="4.445" y="18.732"/>
+</symbol>
+<symbol name="JST_PH-2_VERT_T/H">
+<wire layer="94" width="0.25" x1="1.191" y1="1.27" x2="-0.079" y2="2.54"/>
+<wire layer="94" width="0.25" x1="-0.079" y1="0" x2="1.191" y2="1.27"/>
+<wire layer="94" width="0.25" x1="-4.842" y1="1.27" x2="0.873" y2="1.27"/>
+<wire layer="94" width="0.25" x1="1.191" y1="-1.27" x2="-0.079" y2="0"/>
+<wire layer="94" width="0.25" x1="-0.079" y1="-2.54" x2="1.191" y2="-1.27"/>
+<wire layer="94" width="0.25" x1="-4.842" y1="-1.27" x2="0.873" y2="-1.27"/>
+<wire layer="94" width="0.25" x1="-5.001" y1="2.54" x2="5.159" y2="2.54"/>
+<wire layer="94" width="0.25" x1="5.159" y1="2.54" x2="5.159" y2="-2.54"/>
+<wire layer="94" width="0.25" x1="5.159" y1="-2.54" x2="-5.001" y2="-2.54"/>
+<wire layer="94" width="0.25" x1="-5.001" y1="-2.54" x2="-5.001" y2="2.54"/>
+<pin name="P1" visible="off" length="short" direction="pas" x="-7.699" y="-1.27"/>
+<pin name="P2" visible="off" length="short" direction="pas" x="-7.699" y="1.27"/>
 </symbol>
 <symbol name="1N5819HW">
 <wire layer="94" width="0.25" x1="-2.54" y1="0" x2="-1.6" y2="0"/>
@@ -613,6 +627,19 @@
 <pin name="P1" visible="off" length="short" direction="pas" rot="R180" x="7.62" y="1.27"/>
 <pin name="P2" visible="off" length="short" direction="pas" rot="R180" x="7.62" y="-1.27"/>
 </symbol>
+<symbol name="INDUCTOR_-_BOURNS_SRR1260">
+<wire layer="94" width="0.254" x1="5.08" y1="0" x2="2.54" y2="0" curve="180.01504"/>
+<wire layer="94" width="0.254" x1="2.54" y1="0" x2="0" y2="0" curve="180.01504"/>
+<wire layer="94" width="0.254" x1="0" y1="0" x2="-2.54" y2="0" curve="180.01504"/>
+<wire layer="94" width="0.254" x1="-2.54" y1="0" x2="-5.08" y2="0" curve="180.01504"/>
+<wire layer="94" width="0.25" x1="5.08" y1="-1.27" x2="5.08" y2="0"/>
+<wire layer="94" width="0.25" x1="2.54" y1="-1.27" x2="2.54" y2="0"/>
+<wire layer="94" width="0.25" x1="0" y1="-1.27" x2="0" y2="0"/>
+<wire layer="94" width="0.25" x1="-2.54" y1="-1.27" x2="-2.54" y2="0"/>
+<wire layer="94" width="0.25" x1="-5.08" y1="-1.27" x2="-5.08" y2="0"/>
+<pin name="2" visible="off" length="short" direction="pas" rot="R180" x="7.62" y="-1.27"/>
+<pin name="1" visible="off" length="short" direction="pas" x="-7.62" y="-1.27"/>
+</symbol>
 <symbol name="RES_0603">
 <wire layer="94" width="0.25" x1="3.175" y1="-1.27" x2="3.81" y2="0"/>
 <wire layer="94" width="0.25" x1="1.905" y1="1.27" x2="3.175" y2="-1.27"/>
@@ -623,6 +650,10 @@
 <wire layer="94" width="0.25" x1="-3.81" y1="0" x2="-3.175" y2="1.27"/>
 <pin name="2" visible="off" length="short" direction="pas" rot="R180" x="6.35" y="0"/>
 <pin name="1" visible="off" length="short" direction="pas" x="-6.35" y="0"/>
+</symbol>
+<symbol name="BREAKOUTPAD">
+<circle layer="94" x="0" y="-0.079" radius="0.952" width="0.75"/>
+<pin name="1" visible="off" length="short" direction="pas" rot="R270" x="0" y="3.572"/>
 </symbol>
 <symbol name="1%_VPROG">
 <wire layer="94" width="0.25" x1="3.175" y1="-1.27" x2="3.81" y2="0"/>
@@ -649,19 +680,6 @@
 <pin name="VIN" visible="pin" length="short" direction="nc" rot="R180" x="10.617" y="2.35"/>
 <pin name="VSW" visible="pin" length="short" direction="nc" rot="R180" x="10.617" y="6.35"/>
 </symbol>
-<symbol name="SHIELDED_INDUCTOR_-_PANASONICH">
-<wire layer="94" width="0.254" x1="5.08" y1="0" x2="2.54" y2="0" curve="180.01504"/>
-<wire layer="94" width="0.254" x1="2.54" y1="0" x2="0" y2="0" curve="180.01504"/>
-<wire layer="94" width="0.254" x1="0" y1="0" x2="-2.54" y2="0" curve="180.01504"/>
-<wire layer="94" width="0.254" x1="-2.54" y1="0" x2="-5.08" y2="0" curve="180.01504"/>
-<wire layer="94" width="0.25" x1="5.08" y1="-1.27" x2="5.08" y2="0"/>
-<wire layer="94" width="0.25" x1="2.54" y1="-1.27" x2="2.54" y2="0"/>
-<wire layer="94" width="0.25" x1="0" y1="-1.27" x2="0" y2="0"/>
-<wire layer="94" width="0.25" x1="-2.54" y1="-1.27" x2="-2.54" y2="0"/>
-<wire layer="94" width="0.25" x1="-5.08" y1="-1.27" x2="-5.08" y2="0"/>
-<pin name="2" visible="off" length="short" direction="pas" rot="R180" x="7.62" y="-1.27"/>
-<pin name="1" visible="off" length="short" direction="pas" x="-7.62" y="-1.27"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CIRCUITRIVER_LOGO" prefix="LG">
@@ -672,22 +690,9 @@
 <device name="" package="CircuitRiver-6mm">
 <connects/>
 <technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DNF" prefix="P">
-<gates>
-<gate name="BRKOUTPAD" symbol="DNF" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BreakoutConn">
-<connects>
-<connect gate="BRKOUTPAD" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VALUE" value="DNF"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -746,26 +751,6 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="JST_PH-2_T/H" prefix="J">
-<gates>
-<gate name="PART_1" symbol="JST_PH-2_T/H" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JST_PH-2_T/H">
-<connects>
-<connect gate="PART_1" pin="P1" pad="1"/>
-<connect gate="PART_1" pin="P2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="JST"/>
-<attribute name="DATASHEET" value="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"/>
-<attribute name="MFGPARTNM" value="S2B-PH-K-S(LF)(SN)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LOOUQ_LOGO" prefix="LG">
 <gates>
 <gate name="PART_1" symbol="LOOUQ_LOGO" x="0" y="0"/>
@@ -774,7 +759,9 @@
 <device name="" package="LooUQ-6mm">
 <connects/>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VALUE" value="DNF"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -804,7 +791,7 @@
 <gate name="PART_1" symbol="QWIIC_VERTICAL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="JST-SH_SMD-TopEntry_Qwiic">
+<device name="" package="JST_SH-04_VERT_SMD_Qwiic">
 <connects>
 <connect gate="PART_1" pin="GND" pad="1"/>
 <connect gate="PART_1" pin="3v3" pad="2"/>
@@ -812,7 +799,11 @@
 <connect gate="PART_1" pin="SCL" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUFACTURER" value="JST"/>
+<attribute name="MFGPARTNM" value="BM04B-SRSS-TB(LF)(SN)"/>
+<attribute name="DESCRIPTION" value="CONN HEADER SMD 4POS 1MM"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -859,10 +850,31 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER" value="Amphenol"/>
-<attribute name="MFGPARTNM" value="		
-68000-112HLF"/>
-<attribute name="DESCRIPTION" value="CONN HEADER 12POS .100 STR 30AU	"/>
+<attribute name="MANUFACTURER" value="Sullins"/>
+<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf"/>
+<attribute name="MFGPARTNM" value="PPTC121LFBN-RC"/>
+<attribute name="DESCRIPTION" value="CONN HDR 12POS 0.1 TIN PCB"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_PH-2_R/A_T/H" prefix="J">
+<gates>
+<gate name="PART_1" symbol="JST_PH-2_R/A_T/H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_PH-2_R/A_T/H">
+<connects>
+<connect gate="PART_1" pin="P1" pad="1"/>
+<connect gate="PART_1" pin="P2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="JST"/>
+<attribute name="DATASHEET" value="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"/>
+<attribute name="MFGPARTNM" value="S2B-PH-K-S(LF)(SN)"/>
+<attribute name="DESCRIPTION" value="CONN HEADER R/A 2POS 2MM"/>
 </technology>
 </technologies>
 </device>
@@ -894,8 +906,31 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER" value="Amphenol FCI"/>
-<attribute name="MFGPARTNM" value="68000-116HLF"/>
+<attribute name="MANUFACTURER" value="Sullins"/>
+<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf"/>
+<attribute name="MFGPARTNM" value="PPTC161LFBN-RC"/>
+<attribute name="DESCRIPTION" value="CONN HDR 16POS 0.1 TIN PCB"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_PH-2_VERT_T/H" prefix="J">
+<gates>
+<gate name="PART_1" symbol="JST_PH-2_VERT_T/H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_PH-2_VERT_T/H">
+<connects>
+<connect gate="PART_1" pin="P1" pad="1"/>
+<connect gate="PART_1" pin="P2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="JST"/>
+<attribute name="DATASHEET" value="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"/>
+<attribute name="MFGPARTNM" value="B2B-PH-K-S(LF)(SN)"/>
+<attribute name="DESCRIPTION" value="CONN HEADER R/A 2POS 2MM"/>
 </technology>
 </technologies>
 </device>
@@ -913,7 +948,8 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER" value="Diodes Incorporated"/>
+<attribute name="MANUFACTURER" value="Diodes"/>
+<attribute name="DATASHEET" value="http://datasheets.diptrace.com/diodes/ds30217.pdf"/>
 <attribute name="MFGPARTNM" value="1N5819HW-7-F"/>
 </technology>
 </technologies>
@@ -970,6 +1006,27 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="INDUCTOR_-_BOURNS_SRR1260" prefix="L">
+<gates>
+<gate name="PART_1" symbol="INDUCTOR_-_BOURNS_SRR1260" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="Bourns_SRR1260_Series">
+<connects>
+<connect gate="PART_1" pin="2" pad="2"/>
+<connect gate="PART_1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="220uH"/>
+<attribute name="MANUFACTURER" value="Bourns"/>
+<attribute name="DATASHEET" value="https://www.bourns.com/docs/Product-Datasheets/SRR1260.pdf"/>
+<attribute name="MFGPARTNM" value="SRR1260-221K"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="RES_0603" prefix="R">
 <gates>
 <gate name="PART_1" symbol="RES_0603" x="0" y="0"/>
@@ -986,6 +1043,23 @@
 <attribute name="MANUFACTURER" value="Stackpole "/>
 <attribute name="MFGPARTNM" value="RMCF0603JT12M0"/>
 <attribute name="DESCRIPTION" value="RES 12M OHM 5% 1/10W 0603"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BREAKOUTPAD" prefix="P">
+<gates>
+<gate name="BRKOUTPAD" symbol="BREAKOUTPAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BreakoutConn">
+<connects>
+<connect gate="BRKOUTPAD" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="DNF"/>
 </technology>
 </technologies>
 </device>
@@ -1038,27 +1112,6 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SHIELDED_INDUCTOR_-_PANASONICH" prefix="L">
-<gates>
-<gate name="PART_1" symbol="SHIELDED_INDUCTOR_-_PANASONICH" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="Panasonic_H-Series_Inductor">
-<connects>
-<connect gate="PART_1" pin="2" pad="2"/>
-<connect gate="PART_1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="100uH"/>
-<attribute name="MANUFACTURER" value="Panasonic"/>
-<attribute name="MFGPARTNM" value="ELL-6UH101M"/>
-<attribute name="DESCRIPTION" value="FIXED IND 100UH 600MA 360 MOHM"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1078,17 +1131,17 @@
 <part name="J1" library="common" deviceset="FEATHERHOST-S" device=""/>
 <part name="J2" library="common" deviceset="FEATHERHOST-L" device=""/>
 <part name="J3" library="common" deviceset="CR-SPRING_HEADER" device=""/>
-<part name="J4" library="common" deviceset="JST_PH-2_T/H" device=""/>
-<part name="J5" library="common" deviceset="JST_PH-2_T/H" device=""/>
+<part name="J4" library="common" deviceset="JST_PH-2_R/A_T/H" device=""/>
+<part name="J5" library="common" deviceset="JST_PH-2_VERT_T/H" device=""/>
 <part name="J6" library="common" deviceset="QWIIC_VERTICAL" device=""/>
 <part name="J7" library="common" deviceset="CR-RAPIDSIO_VERTICAL" device=""/>
 <part name="J8" library="common" deviceset="2PIN_T/H_HEADER" device="" value="DNF"/>
-<part name="L1" library="common" deviceset="SHIELDED_INDUCTOR_-_PANASONICH" device="" value="100uH"/>
-<part name="LG1" library="common" deviceset="LOOUQ_LOGO" device=""/>
-<part name="LG2" library="common" deviceset="CIRCUITRIVER_LOGO" device=""/>
-<part name="P1" library="common" deviceset="DNF" device=""/>
-<part name="P2" library="common" deviceset="DNF" device=""/>
-<part name="P3" library="common" deviceset="DNF" device=""/>
+<part name="L1" library="common" deviceset="INDUCTOR_-_BOURNS_SRR1260" device="" value="220uH"/>
+<part name="LG1" library="common" deviceset="LOOUQ_LOGO" device="" value="DNF"/>
+<part name="LG2" library="common" deviceset="CIRCUITRIVER_LOGO" device="" value="DNF"/>
+<part name="P1" library="common" deviceset="BREAKOUTPAD" device="" value="DNF"/>
+<part name="P2" library="common" deviceset="BREAKOUTPAD" device="" value="DNF"/>
+<part name="P3" library="common" deviceset="BREAKOUTPAD" device="" value="DNF"/>
 <part name="R1" library="common" deviceset="RES_0603" device="" value="12M"/>
 <part name="R2" library="common" deviceset="RES_0603" device="" value="1.5M"/>
 <part name="R3" library="common" deviceset="1%_VPROG" device="" value="1.5K"/>
@@ -1099,8 +1152,8 @@
 <sheets>
 <sheet>
 <plain>
-<text x="-103.334" y="116.351" size="2.467" layer="97" font="vector" ratio="10" rot="R0" align="top-left" distance="50">VIn 6-30v</text>
-<text x="111.59" y="69.366" size="1.48" layer="97" font="vector" ratio="10" rot="R0" align="top-left" distance="50">GNSS AntPwr</text>
+<text x="-99.842" y="121.908" size="2.467" layer="97" font="vector" ratio="10" rot="R0" align="top-left" distance="50">VIn 6-30v</text>
+<text x="113.812" y="69.366" size="1.48" layer="97" font="vector" ratio="10" rot="R0" align="top-left" distance="50">GPS/GNSS AntPwr</text>
 <text x="-132.069" y="22.616" size="1.233" layer="97" font="vector" ratio="10" rot="R0" align="top-left" distance="50">D9 (aka A7) is tied to Adafruit's</text>
 <text x="-53.651" y="123.495" size="2.467" layer="97" font="vector" ratio="10" rot="R0" align="top-left" distance="50">VIn Sense</text>
 <wire layer="97" width="0.333" x1="-61.589" y1="125.399" x2="-24.604" y2="125.399"/>
@@ -1152,11 +1205,11 @@
 <instance part="J3" gate="PART_1" x="117.702" y="6.822">
 <attribute name="NAME" value="J3" layer="95" x="109.448" y="-33.368" size="1.628" align="top-left"/>
 </instance>
-<instance part="J4" gate="PART_1" x="130.004" y="62.541" rot="R180">
-<attribute name="NAME" value="J4" layer="95" x="125.206" y="59.34" size="1.628" align="top-left"/>
+<instance part="J4" gate="PART_1" x="129.845" y="62.541">
+<attribute name="NAME" value="J4" layer="95" x="125.047" y="59.34" size="1.628" align="top-left"/>
 </instance>
-<instance part="J5" gate="PART_1" x="-76.669" y="114.605">
-<attribute name="NAME" value="J5" layer="95" x="-74.446" y="111.087" size="1.628" align="top-left"/>
+<instance part="J5" gate="PART_1" x="-85.487" y="114.617" rot="R180">
+<attribute name="NAME" value="J5" layer="95" x="-83.264" y="111.099" size="1.628" align="top-left"/>
 </instance>
 <instance part="J6" gate="PART_1" x="-107.56" y="-3.016" rot="R90">
 <attribute name="NAME" value="J6" layer="95" x="-111.173" y="-11.394" size="1.628" align="top-left"/>
@@ -1170,10 +1223,10 @@
 </instance>
 <instance part="L1" gate="PART_1" x="43.809" y="102.383">
 <attribute name="NAME" value="L1" layer="95" x="42.954" y="106.397" size="1.628" align="top-left"/>
-<attribute name="VALUE" value="100uH" layer="96" x="40.753" y="100.883" size="1.628" align="top-left"/>
+<attribute name="VALUE" value="220uH" layer="96" x="40.426" y="100.883" size="1.628" align="top-left"/>
 </instance>
 <instance part="LG1" gate="PART_1" x="114.776" y="131.128"/>
-<instance part="LG2" gate="PART_1" x="115.24" y="125.093"/>
+<instance part="LG2" gate="PART_1" x="114.617" y="124.46"/>
 <instance part="P1" gate="BRKOUTPAD" x="-57.229" y="-13.176" rot="R90"/>
 <instance part="P2" gate="BRKOUTPAD" x="-57.071" y="-85.566" rot="R90"/>
 <instance part="P3" gate="BRKOUTPAD" x="101.362" y="-6.033" rot="R270"/>
@@ -1491,15 +1544,15 @@
 <segment>
 <wire layer="91" width="0.25" x1="55.401" y1="44.05" x2="55.401" y2="68.097"/>
 <wire layer="91" width="0.25" x1="55.401" y1="79.851" x2="55.401" y2="44.05"/>
-<wire layer="91" width="0.25" x1="-52.223" y1="68.097" x2="-67.779" y2="68.097"/>
+<wire layer="91" width="0.25" x1="-52.223" y1="68.097" x2="-76.518" y2="68.097"/>
 <wire layer="91" width="0.25" x1="-39.366" y1="68.097" x2="-52.223" y2="68.097"/>
 <wire layer="91" width="0.25" x1="-17.937" y1="68.097" x2="-39.366" y2="68.097"/>
 <wire layer="91" width="0.25" x1="-10.155" y1="68.097" x2="-17.937" y2="68.097"/>
 <wire layer="91" width="0.25" x1="55.401" y1="68.097" x2="32.861" y2="68.097"/>
 <wire layer="91" width="0.25" x1="32.861" y1="68.097" x2="55.401" y2="68.097"/>
 <wire layer="91" width="0.25" x1="55.401" y1="68.097" x2="-10.155" y2="68.097"/>
-<wire layer="91" width="0.25" x1="-67.779" y1="113.335" x2="-69.049" y2="113.335"/>
-<wire layer="91" width="0.25" x1="-67.779" y1="68.097" x2="-67.779" y2="113.335"/>
+<wire layer="91" width="0.25" x1="-76.518" y1="113.347" x2="-77.788" y2="113.347"/>
+<wire layer="91" width="0.25" x1="-76.518" y1="68.097" x2="-76.518" y2="113.347"/>
 <pinref part="C2" gate="PART_1" pin="MINUS"/>
 <pinref part="J5" gate="PART_1" pin="P2"/>
 <wire layer="91" width="0.25" x1="-39.366" y1="80.16" x2="-39.366" y2="68.097"/>
@@ -1534,7 +1587,7 @@
 <wire layer="91" width="0.25" x1="-52.229" y1="44.05" x2="55.401" y2="44.05"/>
 <pinref part="J2" gate="PART_1" pin="GND@2"/>
 <pinref part="J3" gate="PART_1" pin="GND"/>
-<wire layer="91" width="0.25" x1="122.384" y1="63.811" x2="93.504" y2="63.811"/>
+<wire layer="91" width="0.25" x1="122.145" y1="63.811" x2="93.504" y2="63.811"/>
 <wire layer="91" width="0.25" x1="93.504" y1="63.811" x2="93.504" y2="44.05"/>
 <pinref part="J4" gate="PART_1" pin="P2"/>
 <junction x="93.504" y="44.05"/>
@@ -1545,7 +1598,7 @@
 <wire layer="91" width="0.25" x1="-81.28" y1="-85.551" x2="-104.989" y2="-85.551"/>
 <pinref part="J7" gate="PART_1" pin="GND"/>
 <junction x="-81.28" y="-22.388"/>
-<wire layer="91" width="0.25" x1="-61.912" y1="-85.551" x2="-60.643" y2="-85.566"/>
+<wire layer="91" width="0.25" x1="-61.912" y1="-85.551" x2="-60.642" y2="-85.566"/>
 <wire layer="91" width="0.25" x1="-61.912" y1="-85.551" x2="-81.28" y2="-85.551"/>
 <pinref part="P2" gate="BRKOUTPAD" pin="1"/>
 <junction x="-81.28" y="-85.551"/>
@@ -1557,7 +1610,7 @@
 <wire layer="91" width="0.25" x1="-85.968" y1="39.048" x2="97.621" y2="39.048"/>
 <pinref part="J1" gate="PART_1" pin="VBAT"/>
 <pinref part="J3" gate="PART_1" pin="VBAT"/>
-<wire layer="91" width="0.25" x1="122.384" y1="61.271" x2="97.621" y2="61.271"/>
+<wire layer="91" width="0.25" x1="122.145" y1="61.271" x2="97.621" y2="61.271"/>
 <wire layer="91" width="0.25" x1="97.621" y1="61.271" x2="97.621" y2="39.048"/>
 <pinref part="J4" gate="PART_1" pin="P1"/>
 <junction x="97.621" y="39.048"/>
@@ -1584,7 +1637,8 @@
 <wire layer="91" width="0.25" x1="-3.836" y1="115.81" x2="-10.155" y2="115.81"/>
 <pinref part="U2" gate="PART_1" pin="VIN"/>
 <junction x="-10.155" y="115.81"/>
-<wire layer="91" width="0.25" x1="-52.223" y1="115.875" x2="-69.049" y2="115.875"/>
+<wire layer="91" width="0.25" x1="-76.518" y1="115.875" x2="-77.788" y2="115.887"/>
+<wire layer="91" width="0.25" x1="-52.223" y1="115.875" x2="-76.518" y2="115.875"/>
 <pinref part="J5" gate="PART_1" pin="P1"/>
 <junction x="-52.223" y="115.875"/>
 </segment>
